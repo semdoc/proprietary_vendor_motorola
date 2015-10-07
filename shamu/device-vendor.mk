@@ -22,6 +22,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
+    com.android.nfc_extras.jar \
+    com.google.android.dialer.support.jar \
     com.verizon.hardware.telephony.ehrpd \
     com.verizon.hardware.telephony.lte \
     com.verizon.ims \

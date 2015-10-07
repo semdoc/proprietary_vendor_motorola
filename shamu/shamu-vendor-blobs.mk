@@ -53,12 +53,19 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
     vendor/motorola/shamu/proprietary/etc/qmi_fw.conf:system/etc/qmi_fw.conf \
     vendor/motorola/shamu/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/motorola/shamu/proprietary/etc/diag/mdm/Connection_Issues_V6+DPL+UIM.cfg:system/etc/diag/mdm/Connection_Issues_V6+DPL+UIM.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/FIT_V16_1.cfg:system/etc/diag/mdm/FIT_V16_1.cfg \
+    vendor/motorola/shamu/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
+    vendor/motorola/shamu/proprietary/etc/diag/mdm/voice-call-min-log.cfg:system/ \
     vendor/motorola/shamu/proprietary/etc/diag/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
+    vendor/motorola/shamu/proprietary/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
+    vendor/motorola/shamu/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
+    vendor/motorola/shamu/proprietary/etc/firmware/wcd9320/wcd9320_mad_audio.bin:system/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
+    vendor/motorola/shamu/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b00:system/etc/firmware/vpu.b00 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b01:system/etc/firmware/vpu.b01 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b02:system/etc/firmware/vpu.b02 \
@@ -74,14 +81,20 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    vendor/motorola/shamu/proprietary/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
+    vendor/motorola/shamu/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
+    vendor/motorola/shamu/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/motorola/shamu/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/motorola/shamu/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/motorola/shamu/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/motorola/shamu/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
+    vendor/motorola/shamu/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/motorola/shamu/proprietary/etc/permissions/com.google.android.dialer.support.xml:system/permissions/com.google.android.dialer.support.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
@@ -89,6 +102,8 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
+    vendor/motorola/shamu/proprietary/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
+    vendor/motorola/shamu/proprietary/framework/com.google.android.dialer.support.jar:system/framework/com.google.android.dialer.support.jar \
     vendor/motorola/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/shamu/proprietary/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
     vendor/motorola/shamu/proprietary/lib/hw/gps.msm8084.so:system/lib/hw/gps.msm8084.so \
@@ -97,11 +112,18 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
     vendor/motorola/shamu/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     vendor/motorola/shamu/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/motorola/shamu/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/motorola/shamu/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/shamu/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/shamu/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/shamu/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/shamu/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
+    vendor/motorola/shamu/proprietary/lib/libnfc_nci_jni.so:system/lib/libnfc_nci_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
+    vendor/motorola/shamu/proprietary/lib/libradio.so:system/lib/libradio.so \
+    vendor/motorola/shamu/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
     vendor/motorola/shamu/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/motorola/shamu/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/motorola/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
@@ -359,6 +381,8 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/motorola/shamu/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/motorola/shamu/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:system/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw \
     vendor/motorola/shamu/proprietary/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:system/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw \

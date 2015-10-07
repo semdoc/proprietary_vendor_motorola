@@ -17,6 +17,24 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),shamu)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.android.nfc_extras.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := com.android.nfc_extras.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.dialer.support.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := com.google.android.dialer.support.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.verizon.hardware.telephony.ehrpd
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := com.verizon.hardware.telephony.ehrpd.jar
