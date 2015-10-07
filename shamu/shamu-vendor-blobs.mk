@@ -63,9 +63,6 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/etc/diag/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
-    vendor/motorola/shamu/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
-    vendor/motorola/shamu/proprietary/etc/firmware/wcd9320/wcd9320_mad_audio.bin:system/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
-    vendor/motorola/shamu/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b00:system/etc/firmware/vpu.b00 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b01:system/etc/firmware/vpu.b01 \
     vendor/motorola/shamu/proprietary/etc/firmware/vpu.b02:system/etc/firmware/vpu.b02 \
