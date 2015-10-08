@@ -33,7 +33,6 @@ LOCAL_SRC_FILES := ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_JNI_SHARED_LIBRARIES := libimscamera_jni.so libimsmedia_jni.so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
